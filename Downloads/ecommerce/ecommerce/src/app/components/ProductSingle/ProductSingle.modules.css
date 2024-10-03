@@ -1,0 +1,63 @@
+.contenedorps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.contimg img {
+  border-radius: 10px;
+  margin-left: 50px;
+  width: 90%;
+  height: auto;
+  box-shadow: 0px 0px 10px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+
+/* Contenedor de información del producto */
+.continfo {
+  max-width: 600px;
+}
+
+.continfo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.continfo h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+ 
+}
+
+.continfo p {
+  padding: 15px;
+  border: 1px solid #9b9b9b;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.botoncompra {
+  background-color: #d1b893;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  display: block;
+  width: 200px;
+}
+
+.botoncompra:hover {
+  background-color: #bfa682;
+}

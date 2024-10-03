@@ -1,0 +1,33 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 1rem; 
+    background-color: #C1A985;
+    color: white;
+    padding: 16px;
+  }
+  
+.opciones {
+  display: flex;
+  list-style: none; 
+  gap: 1rem; 
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  left: -20px;
+}
+
+.cantidad-carrito{
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #736550;
+  color: white;
+  margin-left: 20px;
+  white-space: nowrap;
+  padding: 3px 6px;
+}

@@ -1,0 +1,28 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    background-color: #C1A985;
+    padding: 50px;
+    margin-top: 70px;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono{
+    padding: 4px 20px 4px 0px;
+}
+
+.redes-sociales li{
+    padding: 5px 0px;
+    display: flex;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}
